@@ -17,7 +17,7 @@ module.exports = {
             },
             experimental: {
               plugins: [
-                ["@swc/plugin-emotion", { labelFormat: "[filename]-[local]" }],
+                ["imr-plugin-emotion", { labelFormat: "[filename]-[local]" }],
               ],
             },
           },
